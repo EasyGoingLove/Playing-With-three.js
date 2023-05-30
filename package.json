@@ -1,9 +1,21 @@
 {
+  "name": "portfolio",
+  "version": "0.0.1",
+  "main": "main.js",
   "dependencies": {
-    "@react-three/drei": "^9.66.6",
-    "@react-three/fiber": "^8.13.0",
-    "install-peerdeps": "^3.0.3",
-    "maath": "^0.5.3",
-    "react-router-dom": "^6.11.1"
+    "@react-three/drei": "9.66.6",
+    "@react-three/fiber": "8.13.0",
+    "install-peerdeps": "3.0.3",
+    "maath": "0.5.3",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-router-dom": "6.11.1"
+  },
+  "scripts": {
+    "dev": "vite"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "4.0.0",
+    "vite": "4.3.9"
   }
 }
